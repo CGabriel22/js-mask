@@ -1,5 +1,5 @@
 {
-  "name": "js-mask",
+  "name": "@cg/js-mask",
   "version": "0.1.0-alpha.1",
   "description": "a library to create and apply masks quickly and powerfully",
   "keywords": [
