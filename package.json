@@ -1,0 +1,52 @@
+{
+  "name": "js-mask",
+  "version": "0.1.0-alpha.1",
+  "description": "a library to create and apply masks quickly and powerfully",
+  "keywords": [
+    "carlos gabriel",
+    "gabriel",
+    "front-end",
+    "mask",
+    "masks",
+    "create masks",
+    "js-mask",
+    "hook",
+    "library",
+    "react"
+  ],
+  "author": {
+    "email": "carlosgabrieldev@gmail.com",
+    "name": "Carlos Gabriel"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "run-p dev:tsc dev:alias",
+    "dev:tsc": "tsc -w",
+    "dev:alias": "tsc-alias -w",
+    "build": "run-s build:tsc build:alias",
+    "build:tsc": "tsc",
+    "build:alias": "tsc-alias",
+    "pub": "npm publish --access public",
+    "pub:beta": "npm publish --access public --tag beta",
+    "pub:alpha": "npm publish --access public --tag alpha",
+    "pub:all": "run-s build pub"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">=16.8.0 <=17.x.x",
+    "react-dom": ">=16.8.0 <=17.x.x"
+  },
+  "devDependencies": {
+    "@types/node": "16.7.10",
+    "@types/react": "17.0.19",
+    "npm-run-all": "^4.1.5",
+    "tsc-alias": "^1.3.9",
+    "typescript": "^4.4.2",
+    "webpack": "^5.52.0"
+  }
+}

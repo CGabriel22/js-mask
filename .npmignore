@@ -1,0 +1,13 @@
+/node_modules
+*.pnp*
+
+/src
+tsconfig.json
+.gitignore
+*lock.json
+.vscode
+
+.DS_Store
+*.pem
+
+*.log*
